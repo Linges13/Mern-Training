@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <center>
+        <div id="head-cont">
+            <h1 id="head">CALCULATOR</h1>
+        </div>
+        <div id="container">
+            <div id="input-cont">
+                <form id="form">
+                    <input type="text" name="" id="inp">
+                </form>
+            </div>
+            <div id="but-cont">
+                <button id="but1" onclick="calculator(1)">1</button>
+                <button id="but2" onclick="calculator(2)">2</button>
+                <button id="but3" onclick="calculator(3)">3</button>
+                <button id="but4" onclick="calculator(4)">4</button>
+                <button id="but5" onclick="calculator(5)">5</button>
+                <button id="but6" onclick="calculator(6)">6</button>
+                <button id="but7" onclick="calculator(7)">7</button>
+                <button id="but8" onclick="calculator(8)">8</button>
+                <button id="but9" onclick="calculator(9)">9</button>
+                <button id="but0" onclick="calculator(0)">0</button>
+                <button id="but-dot" onclick="calculator('.')">.</button>
+                <button id="but-exp" onclick="calculator('^')">^</button>
+            </div>
+            <div id="op-cont">
+                <button id="but-add" onclick="calculator('+')">+</button>
+                <button id="but-sub" onclick="calculator('-')">-</button>
+                <button id="but-mul" onclick="calculator('*')">x</button>
+                <button id="but-div" onclick="calculator('%')">%</button>
+            </div>
+            <div id="but-extra">
+                <button id="but-equ" onclick="calculator('=')">=</button>
+                <button id="but-ac" onclick="calculator('AC')">AC</button>
+    
+            </div>
+            <div id="out-cont">
+                <p id="out"></p>
+            </div>
+        </div>
+    </center>
+   
+    <script src="calc.js"></script>
+</body>
+</html>
